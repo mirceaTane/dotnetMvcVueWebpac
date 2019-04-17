@@ -1,0 +1,55 @@
+{
+  "name": "@consignor/monitor",
+  "version": "0.0.0",
+  "description": "Monitor queues stored in MSSQL",
+  "main": "index.js",
+  "scripts": {
+    //TODO: replace <PROJECT_NAME> below
+    "dev": "dotnet clean ./<PROJECT_NAME>.csproj && dotnet build ./<PROJECT_NAME>.csproj && dotnet run --project ./<PROJECT_NAME>.csproj --launch-profile <PROJECT_NAME> --environment=\"Development\"",
+    "webpack-dev": "webpack --config webpack.config.js --mode development",
+    "webpack-prod": "webpack --config webpack.config.js --mode production --reporter basic"
+  },
+  "keywords": [
+    "consignor",
+    "Monitor",
+    "queues",
+    "MSSQL"
+  ],
+  "author": "Consignor Group AS",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "aspnet-webpack": "3.0.0",
+    "axios": "0.18.0",
+    "babel-core": "6.26.3",
+    "babel-loader": "8.0.4",
+    "babel-preset-es2015": "6.24.1",
+    "babel-preset-stage-2": "6.24.1",
+    "clean-webpack-plugin": "1.0.0",
+    "copy-webpack-plugin": "4.6.0",
+    "css-loader": "2.0.0",
+    "mini-css-extract-plugin": "0.5.0",
+    "node-sass": "4.11.0",
+    "optimize-css-assets-webpack-plugin": "5.0.1",
+    "postcss-import": "12.0.1",
+    "postcss-loader": "3.0.0",
+    "sass-loader": "7.1.0",
+    "source-map-support": "0.5.10",
+    "style-loader": "0.23.1",
+    "ts-loader": "5.3.1",
+    "ts-node": "8.0.1",
+    "typescript": "3.2.2",
+    "uglifyjs-webpack-plugin": "2.0.1",
+    "vue": "^2.6.10",
+    "vue-loader": "15.4.2",
+    "vue-property-decorator": "8.1.0",
+    "vue-template-compiler": "^2.6.10",
+    "webpack": "4.27.1",
+    "webpack-command": "0.4.2",
+    "webpack-dev-middleware": "3.4.0",
+    "webpack-hot-middleware": "2.24.3",
+    "webpack-node-externals": "1.7.2"
+  },
+  "dependencies": {
+    "@babel/core": "7.0.0"
+  }
+}
